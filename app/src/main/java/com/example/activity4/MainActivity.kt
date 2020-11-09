@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             val passwordTxt = findViewById<EditText>(R.id.editPW)
             val password: String = passwordTxt.text.toString()
 
-            if ((username == "kris") && (password == "0000")) {
+            if ((username == "zzzz") && (password == "0000")) {
                 val button = findViewById<Button>(R.id.loginBtn)
                 button.setOnClickListener {
                     val intent = Intent(this, PostLogin::class.java)
